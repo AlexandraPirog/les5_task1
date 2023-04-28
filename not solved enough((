@@ -13,7 +13,7 @@ public class task_5{
             PhoneBook.put("Анна Мусина", "423457");
             PhoneBook.put("Анна Крутова", "523457");
             PhoneBook.put("Иван Юрин", "623457");
-            PhoneBook.get("Иван Юрин");
+            
         }       
         public static void updateValue(HashMap<String, String> PhoneBook, String key, String value) {
          if (PhoneBook.containsValue(value)) {
